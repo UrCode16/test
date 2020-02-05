@@ -21,7 +21,31 @@ class Main extends PluginBase implements Listener {
   }
   
   public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
+  
+  
+  switch($cmd->getName()){
+    case "test":
+       if($sender instanceof Player){
+         // real player
+          $sender->sendMessage(TextFormat:: GREEN . "Ahojky" . $sender->getName());
+        } else {
+       // command send from Console
 
+      }
+
+    break;
+
+    }
+  
   return true;
   
+  }
+
+  public function onJoin(PlayerJoinEvent $event){
+
+  $player = $event->getPlayer();
+  
+  $player->sendMessage(TextFormat:: AQUA . "Ahojky" . $player->getName())
+  }
+
 }
