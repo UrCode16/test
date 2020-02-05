@@ -1,0 +1,9 @@
+name: test
+main: SuperBaronDEV\test\Main
+api: [3.0.0]
+version: 1.0.0
+author: SuperBaronDEV
+  commands:
+    test:
+      description: "watch a test command!"
+      usage: /test
