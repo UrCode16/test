@@ -1,5 +1,5 @@
 name: test
-main: SuperBaronDEV\test\Main
+main: SuperBaronDEV\test
 api: [3.0.0]
 version: 1.0.0
 author: SuperBaronDEV
