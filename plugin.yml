@@ -1,3 +1,4 @@
+---
 name: test
 main: SuperBaronDEV\test
 api: [3.0.0]
@@ -7,3 +8,4 @@ author: SuperBaronDEV
     test:
       description: "watch a test command!"
       usage: /test
+...
